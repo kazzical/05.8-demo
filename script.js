@@ -1,5 +1,9 @@
 // Define the calculateTip function here
-
+function calculateTip(billAmount,tipPercentage){
+let tipAmount = billAmount*tipPercentage*0.1;
+  console.log(tipAmount);
+  return billAmount + tipAmount;
+}
 
 // Call the calculateTip function with different values
 console.log("Tip for a $50 bill with 15% tip: " + calculateTip(50, 15));

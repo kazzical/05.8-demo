@@ -1,32 +1,32 @@
 //Before Modularization - No Functions
 
-const numArray = [5, 12, 8, 19, 3];
+//const numArray = [5, 12, 8, 19, 3];
 
-let sum = 0;
-let product = 1;
-let max = numArray[0];
-let min = numArray[0];
+// let sum = 0;
+// let product = 1;
+// let max = numArray[0];
+// let min = numArray[0];
 
-for (let i = 0; i < numArray.length; i++) {
-  sum += numArray[i];
-  product *= numArray[i];
+// for (let i = 0; i < numArray.length; i++) {
+//   sum += numArray[i];
+//   product *= numArray[i];
 
-  if (numArray[i] > max) {
-    max = numArray[i];
-  }
+//   if (numArray[i] > max) {
+//     max = numArray[i];
+//   }
 
-  if (numArray[i] < min) {
-    min = numArray[i];
-  }
-}
+//   if (numArray[i] < min) {
+//     min = numArray[i];
+//   }
+// }
 
-console.log("Sum:", sum);
-console.log("Product:", product);
-console.log("Maximum:", max);
-console.log("Minimum:", min);
+// console.log("Sum:", sum);
+// console.log("Product:", product);
+// console.log("Maximum:", max);
+// console.log("Minimum:", min);
 
 
-/* //After Modularization With Functions
+//After Modularization With Functions
 
 const numArray = [5, 12, 8, 19, 3];
 
@@ -76,4 +76,3 @@ console.log("Product:", product);
 console.log("Maximum:", max);
 console.log("Minimum:", min);
 
-*/
